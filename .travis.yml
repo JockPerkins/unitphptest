@@ -1,0 +1,15 @@
+language: php
+php:
+- '5.4'
+- '5.5'
+- '5.6'
+- '7.0'
+- '7.1'
+install:
+- composer install --no-interaction
+env:
+- FOO=FOO
+deploy:
+  provider: heroku
+  api_key:
+    secure: sqBInFhLXr2J+N4pXs5iQwBg4SZ2+CoasPdeWyByqmH3SQ4gAgW+xzh1xh0XVezdwyZfNVGG9RsuxykI3M1miSF8Yr+euN1YTmBWexjF932GFlEy2yqRISZM/0M8nhq6TFAHTQPoTwMVOU36zEKfXIYX8xJLfH2zXzjO/SNp+XlKd4R76jruf34gEn23lMO2qajowCy/O1mNckN5Ukl6GylPJpuDY3eHGM6kBjP4wr2mhXWS9xjNQ9VCHOpa+CcGsMWW50eSW57dX/Qs4b9dLJiLRHvg5jtvAskneOi1OfGJkUp2Fy7sWbl3amP+TaEtToabebW72SWHTwYlY4lQtN6XlFt9Tz0k02bl6EQ9JN/mY2XQaSt5wPYF78l9BuqF7SWk6fyu2/VkBylCp3o+TKxSkJF/AHd7+Fsg+XPC39mAPXwC3RjkeGVi6RvDF7u8STCEYyw4JQfvZjJVnPl8F5LB7soi6fiBVZkywGy7fDwNRHkkatplxz7OQb9QW4v+TXwIxGB6GU//+vXSf9yUPtG+EANyCz3RUqKfPWT8ih1FHTg+JOGLbxQLIBzYp2umQ5KUvot0f2zFYMum/Dgo8331ClrzRL4/RsYwuT4WuR3ggpCPRqApjpiCACAYER3/08haPxfeTJtHZDtp4VY879pvS7pTjyEYRiSdpHZkGtA=
