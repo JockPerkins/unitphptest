@@ -1,6 +1,6 @@
 language: php
 php:
-- '7.0.17'
+- '7.1'
 install:
 - composer install --no-interaction
 env:
