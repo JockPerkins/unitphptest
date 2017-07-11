@@ -1,0 +1,12 @@
+<phpunit backupGlobals="true" bootstrap="tests/bootstrap.php">
+  <!-- Blacklist the vendor folder -->
+  <filter>
+    <blacklist>
+      <directory>vendor</directory>
+    </blacklist>
+  </filter>
+  <!-- Add the main testsuite -->
+  <testsuite>
+    <directory>tests</directory>
+  </testsuite>
+</phpunit>
